@@ -1,0 +1,99 @@
+.navi{
+	background-color:tomato;
+	text-decoration-line:none;
+	text-align:center;
+	margin:0;
+	padding:0;
+	}
+.navi p{
+	display: inline-block;
+	font-size:25px;
+	padding:25px;
+}
+
+body{
+	background-color: darkcyan;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0px;
+  box-sizing: border-box;
+}
+select {
+  width: 100%;
+  padding: 16px 20px;
+  margin: 10px 0px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+button {
+    background-color: silver;
+    padding: 5px 10px 5px 10px;
+}
+
+.prizepool{
+  width: 60%;
+  margin-left: 55px;
+  background-color: ghostwhite;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  font-family: cursive;
+  border: 2px solid black;
+}
+.winners{
+  width: 70%;
+  margin-left: 40px;
+  background-color: yellow;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  font-family: cursive;
+  border: 2px solid black;
+}
+.runners{
+    width: 80%;
+      margin-left: 25px;
+  background-color: silver;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  font-family: cursive;
+  border: 2px solid black;
+}
+.secondrunnerup{
+    width: 90%;
+      margin-left: 10px;
+  background-color: mediumvioletred;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  font-family: cursive;
+  border: 2px solid black;
+}
+.participants{
+    width: 100%;
+  background-color: lightpink;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  font-family: cursive;
+  border: 2px solid black;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+.column.side {
+  width: 24.1%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 45%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "what is the content taht displays where";
+  display: table;
+  clear: both;
+}
