@@ -3,16 +3,19 @@
 <head>
 	<title> About page </title>
   <link rel="stylesheet" type="text/css" href="aboutstyle.css">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
 </head>
-<style>
-	
-</style>
+
 <body>
 		<ul class="navi">
 		<p><button><a href="E:\suriya\0017\first_website\index.html" target="_blank"style="text-decoration: none; font-size: 17px;">Home</a></button></p>
 		<p><button
 			><a href="E:\suriya\0017\first_website\About.html"style="text-decoration: none; font-size: 17px;">About Us</a></button></p>
 		<p><button><a href=""style="text-decoration: none; font-size: 17px;">Contact Us</a></button></p>
+    <p><button><a href="E:\suriya\0017\first_website\login_page.html" target="_blank"style="text-decoration: none; font-size: 17px;">Register Now</a></button></p>
+
 	</ul>
 	<h1 style ="color: blue;"> The organistaion which we are building </h1>
 <h3 style="color: white;"> We are in the process of making beautiful future for many talented photographers</h3>
@@ -26,14 +29,14 @@
     <h2 style="color: rebeccapurple;" >You can participate in the photography contest 2021 by filling out the below form</h2>
     <h3 >Provide your basic details and upload your pictures</h3>
 
-    <form>
+    <form action="/action_page.php" method="post">
+     First Name: <input type="text" name="fname" required="fname">
 
-      <label for="fname" >First Name</label>
-      <input type="text" id="fname" name="fname">
       <label for="lname" >Last Name</label>
-      <input type="text" id="lname" name="lname">
+      <input type="text" id="lname" name="lname" required>
       <p > Country</p>
-        <select id="country" name="country"> Country
+        <select id="country" name="country" required> Country
+        <option value="St">Select</option>
       <option value="au">Australia</option>
       <option value="ca">Canada</option>
       <option value="usa">USA</option>
@@ -44,7 +47,7 @@
       </select>
 
   <label for="City" >City</label>
-  <input type="text" id="City" name="City">
+  <input type="text" id="City" name="City" required>
   <p > Photography topic</p>
       <select id="Topic" name="Topic">
   <option value="na">Nature</option>
@@ -60,7 +63,8 @@
   <option value="Oc">Open category</option>
 </select>
   <label for="Email" > E-mail address</label>
-  <input type="text" id="Email" name="Email">
+  <input type="text" id="Email" name="Email" required>
+    <input type="submit" value="Submit">
 </form>
 </div>
 
@@ -111,5 +115,6 @@
 
 </body>
 </html>
+
 
 
